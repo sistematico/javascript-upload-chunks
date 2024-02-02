@@ -1,0 +1,13 @@
+{
+  "name": "javascript-upload-chunks",
+  "version": "1.0.0",
+  "author": "Paxá <paxa@paxa.dev> (https://paxa.dev)",
+  "scripts": {
+    "dev": "podman-compose up -d && bun run --watch src/api/server.js",
+    "app:dev": "podman-compose up -d",
+    "api:dev": "bun run --watch src/api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
